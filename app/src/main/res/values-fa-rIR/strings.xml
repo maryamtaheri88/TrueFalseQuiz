@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">درست غلط</string>
+    <string name="true_text">درست</string>
+    <string name="false_text">غلط</string>
+    <string name="prev">قبلی</string>
+    <string name="next">بعدی</string>
+    <string name="check">بررسی</string>
+    <string name="quastion">سوال</string>
 </resources>

@@ -7,7 +7,7 @@ import android.widget.Button
 import android.widget.TextView
 import com.example.truefalsequiz.databinding.ActivityMainBinding
 
-class MainActivity : AppCompatActivity(), View.OnClickListener {
+class MainActivity : AppCompatActivity() {
     lateinit var binding: ActivityMainBinding
     lateinit var trueButton :Button
     lateinit var falseButton :Button
@@ -19,12 +19,9 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.falseBytton.setOnClickListener(this)
-        binding.trueBytton.setOnClickListener(this)
+        binding.falseButton
+        binding.trueButton
         binding.answerTextView
     }
 
-    override fun onClick(view: View?) {
-        switch
-    }
 }
