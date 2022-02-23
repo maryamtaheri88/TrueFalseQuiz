@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">true false</string>
+    <string name="true_text">true</string>
+    <string name="false_text">false</string>
+</resources>
